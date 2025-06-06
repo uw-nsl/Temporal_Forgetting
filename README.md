@@ -21,7 +21,7 @@ Fine-tuning large language models (LLMs) is intended to improve their reasoning 
 
 We released our RL training ckpts of Qwen2.5-7B model in [Huggingface](https://huggingface.co/UWNSL).
 
-Code of our evaluations pipeline will be released in several days :）Appreciate your patience~
+Code of our evaluation pipeline will be released in several days :）Appreciate your patience~
 
 
 ## Citation
