@@ -180,11 +180,12 @@ To reproduce our results with Temporal Sampling, follow the instructions in the 
 - See `Temporal_sampling/calculate_Majority_Voting.ipynb`
 
 **Best-of-N**
-- See `Temporal_sampling/calculate_BoN.ipynb`
+- See `Temporal_sampling/calculate_BoN.ipynb` (Code for calculating rewards of responses will be released soon)
+
 
 The notebooks will generate visualization results similar to:
 
-![Pass@k Results](figs/pass_at_k_results_AIME_Qwen2.5-7B_RL_plot.png)
+<img src="figs/pass_at_k_results_AIME_Qwen2.5-7B_RL_plot.png" width="50%" alt="Pass@k Results">
 
 We welcome any questions or feedback! 🚀
 
