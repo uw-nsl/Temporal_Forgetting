@@ -41,7 +41,7 @@ We have released our RL training checkpoints of the Qwen2.5-7B model on [Hugging
 
 ## Temporal Sampling
 
-We decouple the pipeline by first sampling 64 responses from different checkpoints, then computing Pass@k, Majority Voting, and Best-of-N with Temporal Sampling under various sampling quotas.
+We implement Temporal Sampling in an offline way. We decouple the pipeline by first sampling 64 responses from different checkpoints, then computing Pass@k, Majority Voting, and Best-of-N with Temporal Sampling under various sampling quotas.
 
 
 ### Sampling Responses Data
@@ -169,22 +169,24 @@ done
 ```
 
 
-
 ### Inference-time Scaling with Temporal Sampling
 
-**Pass@k with Temporal Sampling**
+To reproduce our results with Temporal Sampling, follow the instructions in the notebooks:
 
-To reproduce our Pass@k results with Temporal Sampling, please follow the step-by-step instructions in `Temporal_sampling/calculate_pass_at_k.ipynb`.
+**Pass@k**
+- See `Temporal_sampling/calculate_pass_at_k.ipynb`
 
-The notebook will generate results similar to:
+**Majority Voting**
+- See `Temporal_sampling/calculate_Majority_Voting.ipynb`
+
+**Best-of-N**
+- See `Temporal_sampling/calculate_BoN.ipynb`
+
+The notebooks will generate visualization results similar to:
 
 ![Pass@k Results](figs/pass_at_k_results_AIME_Qwen2.5-7B_RL_plot.png)
 
-**Additional Inference-time Methods**
-
-Evaluation codes and explainations for **Majority Voting** and **Best-of-N** will be released soon! 🚀 
-
-We appreciate your patience and welcome any questions or feedback in the meantime.
+We welcome any questions or feedback! 🚀
 
 
 
