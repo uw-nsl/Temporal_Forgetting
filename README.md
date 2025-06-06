@@ -87,6 +87,7 @@ pip install vllm==0.6.5
 > **Note**: To generate different numbers of samples, modify the `repeats` parameter in `lm-evaluation-harness/lm_eval/tasks/{task_name}/{task_name}.yaml`. The default sampling number is set to 64.
 
 **Answer Judgement**
+
 We found that rule-based matching has many edge cases and failure instances (for MATH-500 and Olympiad). Therefore, our scoring process includes two steps:
 
 1. **Initial rule-based matching**
@@ -177,14 +178,13 @@ To reproduce our Pass@k results with Temporal Sampling, please follow the step-b
 
 The notebook will generate results similar to:
 
-![Pass@k Results](Temporal_sampling/exp_results/pass_at_k_results_AIME_Qwen2.5-7B_RL_plot.pdf)
+![Pass@k Results](figs/pass_at_k_results_AIME_Qwen2.5-7B_RL_plot.png)
 
 **Additional Inference-time Methods**
 
 Evaluation codes and explainations for **Majority Voting** and **Best-of-N** will be released soon! 🚀 
 
 We appreciate your patience and welcome any questions or feedback in the meantime.
-
 
 
 
