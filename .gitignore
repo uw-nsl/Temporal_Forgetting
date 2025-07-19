@@ -175,4 +175,5 @@ cython_debug/
 
 
 
-sampling_64_responses
+
+lm-evaluation-harness/sampling_64_responses

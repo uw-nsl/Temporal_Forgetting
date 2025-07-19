@@ -180,7 +180,7 @@ To reproduce our results with Temporal Sampling, follow the instructions in the 
 - See `Temporal_sampling/calculate_Majority_Voting.ipynb`
 
 **Best-of-N**
-- See `Temporal_sampling/calculate_BoN.ipynb` (Code for calculating rewards of responses will be released soon)
+- See `Temporal_sampling/calculate_BoN.ipynb` (see Temporal_Forgetting/best-of-n/README.md for more details of how to calculate rewards.)
 
 
 The notebooks will generate visualization results similar to:
